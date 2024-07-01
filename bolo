@@ -1,0 +1,85 @@
+[11:17, 01/07/2024] Evellyn Oliveira: <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita de Bolo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Receita de Bolo de Chocolate</h1>
+    </header>
+    <main>
+        <section class="ingredients">
+            <h2>Ingredientes</h2>
+            <ul>
+                <li>2 xícaras de farinha de trigo</li>
+                <li>1 xícara de açúcar</li>
+                <li>1 xícara de leite</li>
+                <li>1/2 xícara de óleo</li>
+                <li>3 ovos</li>
+                <li>1 xícara de chocolate em pó</li>
+                <li>1 colher de sopa de fermento em pó</li>
+            </ul>
+        </section>
+        <section class="instructions">
+            <h2>Modo de Preparo</h2>
+            <ol>
+                <li>Pré-aqueça o forno a 180°C.</li>
+                <li>Em uma tigela, misture a farinha, o açúcar e o chocolate em pó.</li>
+                <li>Adicione o leite, o óleo e os ovos, e misture bem.</li>
+                <li>Acrescente o fermento e misture suavemente.</li>
+                <li>Despeje a massa em uma forma untada e leve ao forno por aproximadamente 40 minutos.</li>
+                <li>Deixe esfriar antes de desenformar e servir.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Receita de Bolo</p>
+    </footer>
+</body>
+</html>
+[11:17, 01/07/2024] Evellyn Oliveira: body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul, ol {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;}
